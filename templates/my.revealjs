@@ -104,6 +104,9 @@ $endfor$
       Reveal.addEventListener('ready', function(event) {
         init_cinescripts();
       });
+      Reveal.addEventListener("slidechanged", function(event) {
+        trigger_cinescripts(event);
+      });
     </script>
   </body>
 </html>
