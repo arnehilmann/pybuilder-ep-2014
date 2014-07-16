@@ -72,11 +72,15 @@ $for(include-after)$
 $include-after$
 $endfor$
 
+  <script src="cinescript/lib/term.js"></script>
+  <script src="cinescript/lib/jquery-2.1.1.min.js"></script>
+  <script src="cinescript/lib/extend-jquery.js"></script>
+  <script src="cinescript/lib/cinescript.js"></script>
+
   <script src="$revealjs-url$/lib/js/head.min.js"></script>
   <script src="$revealjs-url$/js/reveal.min.js"></script>
 
   <script>
-
       // Full list of configuration options available here:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
@@ -97,13 +101,9 @@ $endfor$
           { src: '$revealjs-url$/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
           { src: '$revealjs-url$/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
       ]});
-    </script>
-    <script src="cinescript/lib/term.js"></script>
-    <script src="cinescript/lib/jquery-2.1.1.min.js"></script>
-    <script src="cinescript/lib/extend-jquery.js"></script>
-    <script src="cinescript/lib/cinescript.js"></script>
-    <script>
-        $(document).ready(init_cinescripts);
+      Reveal.addEventListener('ready', function(event) {
+        init_cinescripts();
+      });
     </script>
   </body>
 </html>
