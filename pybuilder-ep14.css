@@ -40,12 +40,12 @@ body {
   padding-top: -2em;
 }
 
-.reveal pre {
-  padding: 1ex;
-  box-shadow: none;
-  border-top: 8px solid lightgrey;
-  border-bottom: 8px solid lightgrey;
-}
+//.reveal pre {
+//  padding: 1ex;
+//  box-shadow: none;
+//  border-top: 8px solid lightgrey;
+//  border-bottom: 8px solid lightgrey;
+//}
 
 .reveal pre.console {
   border-top: 0px;
