@@ -12,13 +12,26 @@ _Maximilien Riehl_
 * We love python
 * We're spreading the love in our department
 
+# cinescript test
+
+<div
+    data-typescript="demos/tmp/typescript"
+    data-timing="demos/tmp/timing"
+    data-autoplay="false"
+    data-speed=2
+    data-cols=112
+    data-rows=15
+    style="font-size: 20px;"
+    class="cinescript">
+</div>
+
 # 
 
 <div
     data-typescript="demos/script-yadtshell"
     data-timing="demos/timing-yadtshell"
     data-autoplay="false"
-    class="cinescript">
+    class="XXXcinescript">
 </div>
 
 # Running tasks / default tasks
@@ -39,7 +52,7 @@ explain + shell
     data-typescript="demos/script-sl"
     data-timing="demos/timing-sl"
     data-autoplay="false"
-    class="cinescript">
+    class="XXXcinescript">
 </div>
 
 # Have fun...
@@ -48,3 +61,11 @@ explain + shell
 IS24-IT-Pro-SD
 <img src="res/logo.png" size="224px" align="right"/>
 </div>
+# Practical PyBuilder {data-background="res/pybuilder.png" data-background-size="5%" data-background-repeat="none" data-background-position="right bottom" .spaceps}
+
+_Maximilien Riehl_
+
+<div style="margin: 2em 1em 0em; text-align: right;">
+<small>July 25th, 2014</small>
+</div>
+
