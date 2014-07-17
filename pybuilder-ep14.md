@@ -30,11 +30,11 @@ _Maximilien Riehl_
 <div
     data-typescript="demos/script-yadtshell"
     data-timing="demos/timing-yadtshell"
-    data-autoplay="false"
     data-speed=2
-    data-cols=112
-    data-rows=15
-    style="font-size: 20px;"
+    data-cols=108
+    data-rows=20
+    data-show-controls="false"
+    style="font-size: 24px;"
     class="cinescript">
 </div>
 
