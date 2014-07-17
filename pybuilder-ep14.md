@@ -25,47 +25,64 @@ _Maximilien Riehl_
     class="cinescript">
 </div>
 
-# 
+# Sneak peek
 
 <div
     data-typescript="demos/script-yadtshell"
     data-timing="demos/timing-yadtshell"
     data-autoplay="false"
-    class="XXXcinescript">
+    data-speed=2
+    data-cols=112
+    data-rows=15
+    style="font-size: 20px;"
+    class="cinescript">
 </div>
 
 # Running tasks / default tasks
-What is a task, how to run task(s), setting the default tasks so it "just works"
+Small logic building block
 
-# Like make, but with batteries
-What is a plugin, how do I use a plugin (adds tasks)
+```bash
+pyb run_unit_tests analyze
+```
+
+# It just works™
+
+```bash
+pyb
+```
+and in `build.py`:
+```python
+url = 'https://github.com/yadt/yadtshell'
+version = '1.8.5'
+
+default_task = ['clean', 'analyze', 'publish']
+
+
+@init
+def set_properties(project):
+    project.depends_on('hostexpand')
+```
+
+# TLDR: like make, but with batteries
+* flake8
+* install_dependencies
+* unittest
+* distutils
 
 # Get started with start-project
-A shell demo here
-
-# Dependency management
-explain + shell
+```bash
+pyb --start-project
+```
 
 # Another term with something else entirely
 
 <div
     data-typescript="demos/script-sl"
     data-timing="demos/timing-sl"
+    data-speed=2
+    data-cols=112
+    data-rows=15
+    style="font-size: 20px;"
     data-autoplay="false"
-    class="XXXcinescript">
+    class="cinescript">
 </div>
-
-# Have fun...
-
-<div style="margin: 2em 1em 0em; text-align: left;">
-IS24-IT-Pro-SD
-<img src="res/logo.png" size="224px" align="right"/>
-</div>
-# Practical PyBuilder {data-background="res/pybuilder.png" data-background-size="5%" data-background-repeat="none" data-background-position="right bottom" .spaceps}
-
-_Maximilien Riehl_
-
-<div style="margin: 2em 1em 0em; text-align: right;">
-<small>July 25th, 2014</small>
-</div>
-
