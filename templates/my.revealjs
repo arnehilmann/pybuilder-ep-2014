@@ -103,6 +103,11 @@ $endfor$
       ]});
       Reveal.addEventListener('ready', function(event) {
         init_cinescripts();
+        for (var i=0; i<5; i++) {
+          Reveal.sync();
+        }
+        console.log("synced");
+        Reveal.sync();
       });
       Reveal.addEventListener("slidechanged", function(event) {
         trigger_cinescripts(event);
